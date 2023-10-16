@@ -1,0 +1,57 @@
+/* *{} configuração é para todos CSS */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: pink;
+    border: 5px solid black
+}
+
+/* para chamar um id deve iniciar com # */
+#titulo{
+    color:brown;
+}
+
+/* para chamar uma classe deve iniciar com . */
+.paragrafo{
+    font-size: 17px;
+    font-family: monospace;
+    line-height: 1;
+    border: 15px solid red;
+}
+
+.imgIssa{
+    width: 320px;
+    height: 205px;
+}
+
+.card{
+    width: 425px;
+    height: 212px;
+    border: 1px solid black;
+    margin: 10px 0 10x 11px;
+    padding: 10px;
+}
+
+.card-titulo{
+    font-size: medium;
+    margin: 0 0 10px 0;
+    display: inline;
+}
+
+.card-imagem{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-top: 50px;
+}
+
+.card-text{
+    display:  inline;
+    width: 65%;
+    float: right;
+    font-size: small;
+    line-height: 15pt;
+    margin-top: 30px;
+}
